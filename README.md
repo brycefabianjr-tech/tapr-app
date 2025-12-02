@@ -1,56 +1,54 @@
-# TapR App
+# TapR – Indigenous Transportation Platform  
+**Built with Expo • React Native • Firebase/Node**
 
-TapR is an Indigenous-owned, community-first transportation platform serving Fort McKay, Fort McMurray, and surrounding areas. The TapR mobile application is built using Expo and React Native and provides multiple services in a single app:
+TapR is an Indigenous-owned, community-first transportation platform designed to serve Fort McKay, Fort McMurray, and the surrounding Regional Municipality of Wood Buffalo (RMWB). The platform provides multiple mobility and delivery services through a single mobile application.
 
-- Rides (on-demand transportation)
-- Shuttle (Fort McKay ↔ Fort McMurray)
-- Hotshot Deliveries (urgent small-load transport)
-- Driver Registration and Verification
-- Optional Rider Points System (no mandatory rider signup)
+TapR’s vision is to create safe, reliable, and accessible transportation while supporting Indigenous employment and economic growth.
 
 ---
 
-## 🚀 Features
+## 🌐 Core Services
 
-### Rider Features (No Signup Required)
-- Request rides instantly
-- Enter pickup and dropoff locations
-- Live driver tracking
-- Estimate fare before booking
-- Optional TapR Points account for rewards
+### 🚗 Rides (On-Demand)
+Instant, no-signup-required ride requests with transparent pricing and live tracking.
 
-### Driver Features
-- In-app driver registration
-- Upload license, insurance, and documents
-- Get verified and unlock Driver Mode
-- Go Online/Offline
-- Accept or decline ride requests
-- Navigate to pickup/dropoff
-- View daily earnings
+### 🚌 Shuttle
+Scheduled and on-demand shuttle service between Fort McKay and Fort McMurray.
 
-### Hotshot Delivery
-- Request delivery for items, tools, groceries, documents, and more
-- Live delivery tracking
-- Transparent pricing
-- Driver mode supports both rides and deliveries
+### 📦 Hotshot Deliveries
+Fast small-load deliveries for tools, equipment, groceries, documents, and personal items.
 
-### Shuttle Service
-- Set price for Fort McKay ↔ McMurray round trips
-- Scheduled or on-demand
+### 👤 Driver Registration & Verification
+In-app driver onboarding with license, insurance, and document uploads. Verified drivers unlock “Driver Mode.”
+
+### ⭐ TapR Points (Optional)
+Riders may create an optional account to collect points, redeem rewards, and view ride history.
+
+---
+
+## 📱 Application Architecture
+
+TapR uses a **single app model** with two modes:
+
+- **Rider Mode** – default mode, no login required  
+- **Driver Mode** – unlocked after approval  
+- **Hotshot Mode** – for deliveries
+
+The app is built for simplicity, speed, and reliability in rural and urban environments.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Expo**
-- **React Native**
-- **JavaScript**
+- **Expo (React Native)**
+- **JavaScript / TypeScript (optional)**
 - **React Navigation**
-- **Firebase / Node Backend** (depending on build)
-- **Google Maps API**
+- **Firebase Authentication**
+- **Firebase Firestore or Node.js API**
+- **Google Maps SDK**
+- **Expo Location Services**
 
 ---
 
 ## 📁 Project Structure
 
- tapr-app
